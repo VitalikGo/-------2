@@ -1,0 +1,578 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Comfortaa:wght@300..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+
+.HeaderWrap {
+    background-image: url(/image/Component\ 4.png);
+    background-repeat: no-repeat;
+    background-position: 35cm 6cm;
+    width: 100%;
+    height: 693px;
+    background-color: #DAF2FF;
+    padding: 40px 150px;
+
+}
+
+.Science {
+    color: #F27970;
+    font-family: Coiny;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+a {
+    color: #000;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px 80px;
+}
+
+.CtaRegister {
+    display: flex;
+    justify-content: right;
+    margin: -43px -80px 0px 0px;
+
+}
+
+.CtaRegister a:hover {
+    transform: scale(1.1);
+}
+
+.CtaRegister a {
+    cursor: pointer;
+    transition: all 0.2s linear;
+    margin: 0px 20px;
+}
+
+.LogIn {
+    display: flex;
+    width: 109px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FDFCDC;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 5px;
+    background-color: #7279B6;
+}
+
+.SingUp {
+    display: flex;
+    width: 109px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #000;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 5px;
+    background: #FFF3B0;
+    margin: 0px 30px;
+}
+
+.TitleTxt {
+    color: #080808;
+    font-family: Comfortaa;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+
+    text-align: left;
+    padding: 0px 650px 0px 925px;
+    margin: 100px 0px 0px -840px;
+}
+
+.SubTitle {
+    color: #0A0A0A;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 80px 0px 0px 90px;
+}
+
+
+.ButtonStart a {
+    display: flex;
+    width: 295px;
+    height: 47px;
+    gap: 10px;
+    border-radius: 5px;
+    background: #F27970;
+    margin: 70px 0px 0px 83px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    transition: all 0.2s linear;
+}
+
+.ButtonStart a:hover {
+    transform: scale(1.1);
+    background-color: #e78179cc;
+}
+
+
+
+.TitleImg {
+    color: #F27970;
+    font-family: Comfortaa;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #F27970;
+    margin: 100px 0px 0px 270px;
+}
+
+
+.BolockPhoto {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 80px;
+    margin: 50px 0px 0px 0px;
+    flex-direction: row;
+
+}
+
+.photo {
+    width: 197.583px;
+    height: 285px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: var(--002, #FFF3B0);
+
+
+    margin: 0px 50px
+}
+
+.photo h4 {
+    width: 169.505px;
+    height: 81.862px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Comfortaa;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 35px 0px 0px 8px;
+}
+
+.photo p {
+    width: 75.913px;
+    height: 36.383px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Lato;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: -30px 0px 0px 10px;
+}
+
+.photo img {
+    margin: -12px 0px 0px 40px;
+}
+
+.RecktangleButton {
+
+    margin: 0px 0px 0px 0px;
+}
+
+.RecktangleButton hr {
+    border-top: 3px solid #7279B6;
+    stroke-width: 5px;
+    stroke: var(--001, #7279B6);
+    margin: 100px 10% 70px 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.RecktangleButton h4 {
+
+    top: 1824px;
+    left: 569px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Comfortaa;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 44.6px;
+    text-align: left;
+    color: #F27970;
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px 70px 0px;
+}
+
+.Elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 300px;
+}
+
+.RowElements {
+    margin: 20px 0px;
+
+}
+
+
+
+.Elements a {
+    color: #000;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px 20px;
+    gap: 10px;
+    border-radius: 5px;
+    background: var(--unnamed, #DAF2FF);
+    margin: 10px 30px;
+
+
+}
+
+.RecktanglePlan hr {
+    border-top: 3px solid #7279B6;
+    stroke-width: 5px;
+    stroke: var(--001, #7279B6);
+    margin: 100px 10% 70px 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.RecktanglePlan h2 {
+    color: var(--, #F27970);
+    font-family: Comfortaa;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #F27970;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px;
+}
+
+.ComponentBasic {
+    width: 383px;
+    height: 361px;
+    border-radius: 5px;
+    background: #DAF2FF;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    text-align: start;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.ComponentBasic h3 {
+    color: #000;
+    font-family: Lato;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0px 0px 0px 0px;
+
+}
+
+.ComponentBasic h4 {
+    color: #000;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0px 0px 0px 0px;
+
+}
+
+.ComponentBasic p {
+    color: #000;
+    text-align: center;
+    font-family: Lato;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 8px 0px;
+
+}
+
+.ComponentBasic button {
+    color: #000;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #C5E4F4;
+    border-radius: 5px;
+    margin: 0px 0px 0px 0px;
+    transition: all 0.2s linear;
+}
+
+.ComponentBasic button:hover {
+    transform: scale(1.1);
+    background-color: #8fcff0;
+}
+
+form {
+    margin: 30px 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.ComponentPro {
+    width: 383px;
+    height: 361px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #DAF2FF;
+    display: flex;
+    align-items: flex-start;
+    text-align: start;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.ComponentPro h3 {
+    color: #FEC447;
+    font-family: Lato;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0px 0px 0px 0px;
+
+}
+
+.ComponentPro h5 {
+    color: var(--, #F27970);
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0px 0px;
+}
+
+.ComponentPro p {
+    color: #090909;
+    text-align: center;
+    font-family: Lato;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 8px 0px;
+}
+
+.ComponentPro button {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #F27970;
+    margin: 0px 0px 0px 0px;
+    transition: all 0.2s linear;
+}
+
+
+
+.ComponentPro button:hover {
+    transform: scale(1.1);
+    background-color: #f79c95;
+}
+
+.BoxComponent {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 27%;
+
+}
+
+.RecktangleFooter {
+    width: 100%;
+    height: 314px;
+
+    background-color: #DAF2FF;
+    padding: 60px;
+    margin: 150px 0px;
+
+}
+
+.RecktangleFooter h3 {
+    color: #F27970;
+    font-family: Comfortaa;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.RecktangleFooter h4 {
+    color: #000;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 23px 0px;
+}
+
+.RecktangleFooter h5 {
+    width: 87px;
+    height: 29px;
+    padding-right: 2px;
+    font-size: 18px;
+    justify-content: flex-end;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+    gap: 8px;
+    margin: 0px 0px 0px 90%;
+    line-height: 21px;
+}
